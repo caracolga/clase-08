@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>ejercicio</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+          <option value="index.html"selected>Página de portada</option>
+          <option value="page-1.html">Primera página</option>
+          <option value="page-2.html">Segunda página</option>
+          <option value="page-3.html">Tercera página</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">COVID y Segregación</a></h1>
+            <h3>o cómo la comuna donde vives afecta la transimisión del virus y, por supuesto, la capacidad de sobrevivirlo</h3>
+            <h5>Información rescatada del artículo de CIPER "Ciudad y COVID-19: Desigualdad socio espacial y vulnerabilidad" Por Francisco Vergara Perucich , Felipe Encinas, Carlos Aguirre Núñez, Ricardo Truffello, Juan Correa y Felipe Ladrón de Guevara</h5>
+            <hr>
+        </header>
+        <section>
+            <p>En el artículo del medio de prensa se rescata la importancia del territorio y la geografía en esta emergencia sanitaria. La georreferenciación de los casos de COVID-19 junto a la densidad de población dulta mayor, siendo la más vulnerable en esta crisis, se convierte en una herramienta fundamental para focalizar esfuerzos y tomar decisiones en pos de su protección.</p>
+            <blockquote cite="https://ciperchile.cl/2020/03/25/ciudad-y-covid-19-desigualdad-socio-espacial-y-vulnerabilidad/">
+                <p>Las comunas que podrían tener mayor vulnerabilidad ante la exposición a enfermedades respiratorias serían La Granja, La Pintana, Estación Central, Quilicura, Cerrillos y algunos sectores de Peñalolén, Macul, La Florida, Recoleta, Independencia y Cerro Navia, sumando un grupo expuesto de más de 290.000 adultos mayores.</p>
+                <footer><a href="https://ciperchile.cl/2020/03/25/ciudad-y-covid-19-desigualdad-socio-espacial-y-vulnerabilidad/">CIPER Chile</a></footer>
+            </blockquote>
+            <p> Ahora bien, son estas mismas comunas las que son más vulnerables al contagio de este virus, no solo por las condiciones ambientales, sino también las calidad de las viviendas que acogen a las personas adultas mayores. La calidad de la vivienda se vuelve un factor preponderante para mantener aislados a los grupos de riesgo.</p>
+            <h2>Segregación económico-espacial</h2>
+            <p>Esta crisis llevará consigo un frenazo económico gigantesco, lo que nos llevará a repensar las formas de relacionarnos como sociedad. Este modelo económico ya no sostiene:</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>La especulación en los precios</li>
+                <li>El sobre endeudamiento de las familias y las empresas</li>
+                <li>El colpaso del consumo de bienes no básicos.</li>
+            </ul>
+            <p>"Nuevamente la segregación residencial indica que el sector oriente de mayores ingresos es el menos expuesto a los problemas la calidad de la vivienda en relación a las variaciones de las temperaturas extremas, y con ello, a posibles enfermedades respiratorias."</p>
+            <figure>
+                <img src="ciper.jpg" alt="edificios de similar altura muestran sus partes, acumulándose uno destrás del otro, generando una multitud de edificaciones.">
+                <figcaption>las partes más alta de los edificios de altura se esconden entre árboles y vegetación frondosa</figcaption>
+            </figure>
+            <p>Así la segregación espacial y territorial se convierte en un factor determinante en las posibilidades de superar esta pandemia, reconociendo que las diferencias de viviendas reflejan también un desamparo de la población más vulnerable en esta crisis sanitaria, a lo largo de todo Chile.<strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>Olga F. Vio &copy; 2020 <span class="derecha">Octava clase, enfocada en <abbr title="Cascading Style Sheets">css</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
